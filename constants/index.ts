@@ -1,4 +1,4 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaLinkedin } from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -38,26 +38,26 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
+  //   {
+  //     skill_name: "Redux",
+  //     image: "redux.png",
+  //     width: 80,
+  //     height: 80,
+  //   },
+  //   {
+  //     skill_name: "React Query",
+  //     image: "reactquery.png",
+  //     width: 80,
+  //     height: 80,
+  //   },
+  //   {
+  //     skill_name: "TypeScript",
+  //     image: "ts.png",
+  //     width: 80,
+  //     height: 80,
+  //   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
+    skill_name: "Next.js 15",
     image: "next.png",
     width: 80,
     height: 80,
@@ -68,12 +68,12 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
+  //   {
+  //     skill_name: "Stripe",
+  //     image: "stripe.png",
+  //     width: 80,
+  //     height: 80,
+  //   },
   {
     skill_name: "Node.js",
     image: "node.png",
@@ -90,19 +90,19 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
+    name: "LinkedIn",
+    icon: FaLinkedin,
+    link: "https://www.linkedin.com/in/nomula-bhanu-durga-prasad/",
+  },
+  {
+    name: "Github",
+    icon: RxGithubLogo,
+    link: "https://github.com/nbhanu220904/",
+  },
+  {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://www.instagram.com/n.bhanu_durga_prasad/",
   },
 ] as const;
 
@@ -143,26 +143,26 @@ export const FRONTEND_SKILL = [
     width: 80,
     height: 80,
   },
+  //   {
+  //     skill_name: "Redux",
+  //     image: "redux.png",
+  //     width: 80,
+  //     height: 80,
+  //   },
+  //   {
+  //     skill_name: "React Query",
+  //     image: "reactquery.png",
+  //     width: 80,
+  //     height: 80,
+  //   },
+  //   {
+  //     skill_name: "TypeScript",
+  //     image: "ts.png",
+  //     width: 80,
+  //     height: 80,
+  //   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
+    skill_name: "Next.js 15",
     image: "next.png",
     width: 80,
     height: 80,
@@ -206,33 +206,33 @@ export const BACKEND_SKILL = [
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
-  },
+  //   {
+  //     skill_name: "Prisma",
+  //     image: "prisma.png",
+  //     width: 70,
+  //     height: 70,
+  //   },
+  //   {
+  //     skill_name: "Graphql",
+  //     image: "graphql.png",
+  //     width: 80,
+  //     height: 80,
+  //   },
 ] as const;
 
 export const FULLSTACK_SKILL = [
-  {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
+  //   {
+  //     skill_name: "React Native",
+  //     image: "reactnative.png",
+  //     width: 70,
+  //     height: 70,
+  //   },
+  //   {
+  //     skill_name: "Tauri",
+  //     image: "tauri.png",
+  //     width: 70,
+  //     height: 70,
+  //   },
   {
     skill_name: "Docker",
     image: "docker.png",
@@ -250,8 +250,8 @@ export const FULLSTACK_SKILL = [
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
+    skill_name: "Git",
+    image: "git.png",
     width: 60,
     height: 60,
   },
@@ -259,21 +259,21 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Jobby App",
     description:
       'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
     image: "/projects/project-1.png",
     link: "https://example.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Modern Next.js 15 Landing Page",
     description:
       'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
     image: "/projects/project-2.png",
     link: "https://example.com",
   },
   {
-    title: "Space Themed Website",
+    title: "Modern Next.js 15 Protfolio",
     description:
       'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
     image: "/projects/project-3.png",
